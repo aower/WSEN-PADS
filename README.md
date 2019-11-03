@@ -49,6 +49,7 @@ First function to be called before begin() if address is set to 0x5D like in sta
 
 Set all private registers and start the sensor chip like defined in opmode.
 Available opmodes are:
+
 | opmode            | function                          |
 |-------------------|-----------------------------------|
 | WSEN_PADS_ONESHOT | shutdown mode / single-shot       |
@@ -75,6 +76,7 @@ to the pressure and temperature data. The second low-pass filter LPF2 can be opt
 enabled and applied to the pressure data. This configuration is available for both continuous
 mode and single conversion mode.
 The lowpass-filter modes are:
+
 | lpf-mode        | description                           |
 |-----------------|---------------------------------------|
 | WSEN_PADS_ODR2  | device bandwidth ODR/2, LPF2 disabled |
