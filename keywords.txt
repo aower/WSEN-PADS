@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map for LM75
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EHAJO_WSEN_PADS		KEYWORD1
+int_cfg_register	KEYWORD1
+interface_ctrl		KEYWORD1
+ctrl_1				KEYWORD1
+ctrl_2				KEYWORD1
+ctrl_3				KEYWORD1
+fifo_ctrl			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin				KEYWORD2
+setAddress			KEYWORD2
+enableBlockdata 	KEYWORD2
+disableBlockdata 	KEYWORD2
+setLowpassfilter 	KEYWORD2
+disableLowNoise		KEYWORD2
+getPressure			KEYWORD2
+getTemperature		KEYWORD2
+getValues			KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WSEN_PADS_CONTINOUS	LITERAL1
+WSEN_PADS_ONESHOT	LITERAL1
+WSEN_PADS_1HZ		LITERAL1
+WSEN_PADS_10HZ		LITERAL1
+WSEN_PADS_25HZ		LITERAL1
+WSEN_PADS_50HZ		LITERAL1
+WSEN_PADS_75HZ		LITERAL1
+WSEN_PADS_100HZ		LITERAL1
+WSEN_PADS_200HZ		LITERAL1
+WSEN_PADS_ODR2		LITERAL1
+WSEN_PADS_ODR9		LITERAL1
+WSEN_PADS_ODR20		LITERAL1
